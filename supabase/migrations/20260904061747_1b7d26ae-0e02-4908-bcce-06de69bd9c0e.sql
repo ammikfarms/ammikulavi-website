@@ -1,0 +1,4 @@
+CREATE POLICY "estate media readable" ON storage.objects FOR SELECT TO anon, authenticated USING (bucket_id = 'estate-media');
+CREATE POLICY "admins upload estate media" ON storage.objects FOR INSERT TO authenticated WITH CHECK (bucket_id = 'estate-media' AND public.has_role(auth.uid(),'admin'));
+CREATE POLICY "admins update estate media" ON storage.objects FOR UPDATE TO authenticated USING (bucket_id = 'estate-media' AND public.has_role(auth.uid(),'admin'));
+CREATE POLICY "admins delete estate media" ON storage.objects FOR DELETE TO authenticated USING (bucket_id = 'estate-media' AND public.has_role(auth.uid(),'admin'));

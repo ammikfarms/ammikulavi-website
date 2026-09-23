@@ -1,0 +1,25 @@
+﻿bun : $ vitest run tests/integration/auth.test.tsx
+At line:1 char:1
++ bun run test -- tests/integration/auth.test.tsx 2>&1 | Out-File -File ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ($ vitest run te...n/auth.test.tsx:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+ RUN  v5.0.0 C:/Programming/nature-bloom-cms-main
+
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+
+ Test Files  1 passed (1)
+      Tests  7 passed (7)
+   Start at  00:50:19
+   Duration  7.88s (tests 47%, environment 26%, import 14%, transform 7%, setup 5%)
+

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Static assets
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Disallow: /auth/
+
+Sitemap: https://ammikulaviestate.com/sitemap.xml
